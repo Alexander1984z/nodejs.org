@@ -6,6 +6,12 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4",
-    "node-github-graphql": "^0.2.7"
-  }
+    "node-github-graphql": "^0.2.7",
+    "snyk": "^1.230.5"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
