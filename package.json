@@ -62,7 +62,7 @@
     "strftime": "0.10.0"
   },
   "devDependencies": {
-    "faucet": "^0.0.1",
+    "faucet": "^0.0.2",
     "htmllint-cli": "^0.0.6",
     "nock": "^9.5.0",
     "pre-commit": "^1.2.2",
